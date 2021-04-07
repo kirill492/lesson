@@ -27,8 +27,9 @@
 		margin: 50px;
 	}
 	p {
-		padding: 1px
+		padding: 10px
 	}
+
 
 </style>
 </HEAD>
@@ -38,14 +39,40 @@
 		
 	<form method="GET">
 		<p>
-		<input type="text" name="query">
+			<label for="query">ФИО</label>
+		<input type="text" name="query" id="query" placeholder="ФИО">
 		</p>
 
 		<p>
-		<input type="text" name="a">
+			<label for="a">номер</label>
+		<input type="text" name="a" id="a" placeholder="номер">
+		</p>
+
+	<div>
+		<p>
+			<label>класс</label>
+		</p>
+			<p>
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+			</select>
+		</p>
+	</div>
+		<p>
+			<textarea rows="10" cols="40">
+				
+			</textarea>
 		</p>
 
 		<button type="Submit">Submit</button>
+
 	</form>
 		
 	</div>
