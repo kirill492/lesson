@@ -17,10 +17,14 @@
 		padding: 20px;
 	}
 
-	form input {
+	form input:not([type="checkbox","radio"])
+	{
 		/*margin: 0 auto;*/
 		width: 100%;
 	}
+	label {display:inline-block;
+		width: 100%}
+
 	.box {
 		border: 2px solid #ff0000;
 		padding: 15px;
@@ -46,6 +50,69 @@
 		<p>
 			<label for="a">номер</label>
 		<input type="text" name="a" id="a" placeholder="номер">
+		</p>
+
+		<p>
+			<label for="date"> Дата рождения</label>
+			<input type="date" name="date" id="date">
+		</p>
+		
+		<div>
+			<label>Фрукты</label>
+			<label>
+				<input type="checkbox" name="fruit">
+				Яблоки
+			</label>
+			<label>
+				<input type="checkbox" name="fruit">
+				Груши
+			</label><label>
+				<input type="checkbox" name="fruit">
+				БАНАНЫ
+			</label>
+		</div>
+		<div>
+			<label>Язык</label>
+			<label>
+			<input type="radio" name="language">
+			Русский
+			</label>
+			<label>
+			<input type="radio" name="language">
+			Английский
+			</label>
+			<label>
+			<input type="radio" name="language">
+			Китайский
+			</label>
+
+		</div>
+<p>
+	<div>
+			<label>Время года</label>
+			<label>
+			<input type="radio" name="language">
+			<img src="C:\Users\пк\Desktop\web\html\lesson\winter.png" alt="Зима">
+			</label>
+			<label>
+			<input type="radio" name="language">
+			<img src="C:\Users\пк\Desktop\web\html\lesson\.autumn.png" alt="Осень">
+			</label>
+			<label>
+			<input type="radio" name="language">
+			<img src="C:\Users\пк\Desktop\web\html\lesson\spring.png" alt="Весна">
+			</label>
+			<label>
+			<input type="radio" name="language">
+			<img src="C:\Users\пк\Desktop\web\html\lesson\summer.png" alt="Лето">
+			</label>
+
+		</div>
+	</p>
+
+		<p>
+			<label>Почта</label>
+			<input type="email" name="email">
 		</p>
 
 	<div>
