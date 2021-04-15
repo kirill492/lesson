@@ -16,7 +16,17 @@
 		margin: auto;
 		padding: 20px;
 	}
+img[src] {
+		border: 2px solid #00ff00
+	}
 
+img[alt] {
+	border: 2px solid #ff0000;
+}
+
+img[alt^="a"] {
+		border: 2px solid #0000ff;
+}
 	form input:not([type="checkbox","radio"])
 	{
 		/*margin: 0 auto;*/
@@ -39,6 +49,8 @@
 </HEAD>
 
 <body>
+
+	<a href="../index.html">home</a>
 	<div class="container">
 		
 	<form method="GET">
@@ -91,20 +103,20 @@
 	<div>
 			<label>Время года</label>
 			<label>
-			<input type="radio" name="language">
-			<img src="C:\Users\пк\Desktop\web\html\lesson\winter.png" alt="Зима">
+			<input type="radio" name="time">
+			<img src="../\images\winter.png" alt="Зима">
 			</label>
 			<label>
-			<input type="radio" name="language">
-			<img src="C:\Users\пк\Desktop\web\html\lesson\.autumn.png" alt="Осень">
+			<input type="radio" name="time">
+			<img src="../\images\autumn.png" alt="Осень">
 			</label>
 			<label>
-			<input type="radio" name="language">
-			<img src="C:\Users\пк\Desktop\web\html\lesson\spring.png" alt="Весна">
+			<input type="radio" name="time">
+			<img src="./\images\spring.png" alt="Весна">
 			</label>
 			<label>
-			<input type="radio" name="language">
-			<img src="C:\Users\пк\Desktop\web\html\lesson\summer.png" alt="Лето">
+			<input type="radio" name="time">
+			<img src="../\images\summer.png" alt="Лето">
 			</label>
 
 		</div>
@@ -163,7 +175,9 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
 
 	</p>
-
+	<img src="C:\Users\пк\Desktop\web\html\lesson\summer.png" alt="summer">
+	<img src="C:\Users\пк\Desktop\web\html\lesson\autumn.png" alt="autumn">
+	<img src="C:\Users\пк\Desktop\web\html\lesson\summer.png">
 </body>
 
 </html>
