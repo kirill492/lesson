@@ -3,8 +3,18 @@
 
 <HEAD>
 	<title>javascript</title>	
-<script type="text/javascript" src="../\asset\js\main.js"></script>
-	
+
+	<style type="text/css">
+		.table {border: 1px solid #0000ff
+				color: black; text-align: justify; width: 20%
+}
+		.knobka {
+				width:100%
+}
+		input {
+				width:100%
+}
+	</style>
 </HEAD>
 
 <body>
@@ -17,5 +27,59 @@
 <!-- </button> -->
 <!-- </p> -->
 </body>
+
+	<table class="table">
+			<thead>
+				<tr>
+
+					<th colspan="4">
+						<!-- <span id="result"> -->
+						<!-- </span> -->
+						<input type="text" name="enter" id="enter">
+					</th>
+					
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td> 
+						<input type="button" name="7" value="7" class="knobka">
+					</td>
+					<td><input type="button" name="8" value="8" class="knobka"></td>
+					<td><input type="button" name="9" value="9" class="knobka"></td>	
+					<td><input type="button" name="+" value="+" class="open"></td>	
+				</tr>
+
+				<tr>
+					<td><input type="button" name="4" value="4" class="knobka"></td>
+					<td><input type="button" name="5" value="5" class="knobka"></td>
+					<td><input type="button" name="6" value="6" class="knobka"></td>
+					<td><input type="button" name="-" value="-" class="open"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" name="1" value="1" class="knobka"></td>
+					<td><input type="button" name="2" value="2" class="knobka"></td>
+					<td><input type="button" name="3" value="3" class="knobka"></td>
+					<td><input type="button" name="*" value="*" class="open"></td>
+				</tr>
+
+				<tr>
+					<td colspan="2"><input type="button" name="0" value="0" class="knobka"></td>
+					<td><input type="button" name="=" value="=" class="open"></td>
+					<td><input type="button" name="/" value="/" class="open"></td>
+				</tr>
+
+			</tbody>
+	</table>
+
+
+<script type="text/javascript" src="../\asset\js\main.js"></script>
+	
+
+
+
+
 
 </html>
